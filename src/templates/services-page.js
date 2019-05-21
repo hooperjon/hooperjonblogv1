@@ -158,7 +158,7 @@ ProductPage.propTypes = {
 
 export default ProductPage
 
-export const productPageQuery = graphql`
+export const servicesPageQuery = graphql`
   query ProductPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
